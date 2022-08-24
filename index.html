@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <button class="menuBtn">MENU</button>
+        <nav class="headerNav">
+            <ul>
+                <li>list items</li>
+                <li>list items</li>
+                <li>list items</li>
+                <li>list items</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h4>section 1</h4>
+            <div class="section1Div">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro libero beatae deleniti molestiae
+                     sapiente, quaerat magnam harum maxime sint explicabo natus architecto, autem odio consequuntur 
+                     dolorum adipisci quos mollitia a nisi incidunt dolorem accusantium. Qui aut dolor atque? Unde 
+                     nesciunt placeat modi tenetur laborum reprehenderit quas, vero non, accusamus earum pariatur corporis,
+                      quam facere labore dolorum? Necessitatibus dolor blanditiis ad magnam asperiores expedita maiores! 
+                      Sapiente, hic consectetur labore nesciunt vitae quos qui molestias?
+                     Iusto tempore fugit amet commodi sint accusamus!
+                    </p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+          let menuBtn = document.querySelector('.menuBtn');
+          let headerNav = document.querySelector('.headerNav');
+          menuBtn.addEventListener('click',()=>{
+            headerNav.classList.add('showMenu');
+          })
+    </script>
+</body>
+</html>

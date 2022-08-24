@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    width: 100vw;
+    height: 25vh;
+    background-color:lightgreen;
+    nav{
+        position: inherit;
+        left:-12rem;
+        width:12rem;
+        height: 8rem;
+        border: .25px solid white;
+        ul{
+            background-color: aquamarine;
+            list-style: none;
+            padding-left: 1rem;
+        }
+    }
+}
+.showMenu{
+    left:0;
+    opacity: 1;
+    animation: menuAnim 4s linear;
+}
+@keyframes menuAnim{
+    from{left:-12rem;opacity: 0.7;}
+    to{left:0; opacity: 1;}
+}
+main{
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(138, 247, 156);
+}
